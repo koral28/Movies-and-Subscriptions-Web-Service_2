@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "Id": "5f9e824093180c291c9a2dec",
+      "FirstName": "Koral",
+      "LastName": "Levi",
+      "CreatedDate": "10/2/2020",
+      "SessionTimeOut": "2"
+    },
+    {
+      "Id": "5fa6b338964f9d30a00800dc",
+      "FirstName": "meital",
+      "LastName": "Levi",
+      "CreatedDate": "11/7/2020",
+      "SessionTimeOut": "9"
+    },
+    {
+      "Id": "5fa6b2935ea3443144d23e03",
+      "FirstName": "Avi",
+      "LastName": "Levi",
+      "CreatedDate": "11/7/2020",
+      "SessionTimeOut": "2"
+    }
+  ]
+}
