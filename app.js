@@ -13,7 +13,11 @@ var loginRouter = require("./routes/login");
 var permissionsRouter = require("./routes/permissions");
 
 var app = express();
-app.use(session({ secret: "my-secret" }));
+app.use(
+  session({
+    secret: "my-secret",
+  })
+);
 require("./configs/database");
 
 // view engine setup
@@ -33,9 +37,6 @@ app.use("/api/login", loginRouter);
 app.use("/api/users", usersRouter);
 app.use("/createDB", createDBRouter);
 app.use("/api/permissions", permissionsRouter);
-
-
-
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
